@@ -15,9 +15,9 @@ Fruit ob;
 vector <Fruit> f;
 
 	f.push_back(ob);
-	f.pop_back(ob);
 	f.push_back(ob);
-	f.pop_back(ob);
+	f.push_back(ob);
+	f.push_back(ob);
 
 
 for (auto x:f)
