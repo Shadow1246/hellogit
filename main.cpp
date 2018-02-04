@@ -8,6 +8,10 @@ using namespace std ;
 int main()
 {
 
+int Amount;
+string Name;
+float Price;
+
 Fruit ob;
 Fruit ob2={700,Orange,1.00};
 
