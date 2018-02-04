@@ -1,15 +1,16 @@
 #include<iostream>
 #include<vector>
 #include"Fruit.h"
+#include<string>
 
 using namespace std ;
 
 int main()
 {
+vector <Fruit> f;
+
 Fruit ob;
 Fruit ob2={700,Orange,1.00}
-
-vector <Fruit> f;
 
 	f.push_back(ob);
 	f.push_back(ob2);
@@ -21,4 +22,6 @@ for (auto x:f)
 	{
 		cout << x.getNewamount() << x.getNewname() << x.getNewprice() <<endl;
 	}
+
+	return 0;
 }

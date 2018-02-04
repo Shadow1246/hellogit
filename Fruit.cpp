@@ -1,52 +1,48 @@
 //client 
 
 #include"Fruit.h"
+#include <string>
+
+using namespace std;
 
 
-Fruit::Fruit()
-
-	{
-
-		newAmount =0;
-		newName =' ';
-		newPrice= 0.0;
-	}
+Fruit::Fruit(){};
 
 	
-Fruit::Fruit (int f2,char f3, float f4);
+Fruit::Fruit (int f2,string f3, float f4)
 	{
-		newAmount= f2;
-		newName=f3;
-		newPrice=f4;
+		Amount = f2;
+		Name = f3;
+		Price = f4;
 	}
 
-void Fruit::setnewAmount (int f2);
+void Fruit::setAmount (int f2)
 	{
-		newAmount=f2;
+		Amount=f2;
 	}
 
-int Fruit::getnewAmount();
+int Fruit::getAmount()
 	{
-		return newAmount;
+		return Amount;
 	}
 
-void Fruit::setnewName (char f3);
+void Fruit::setName (string f3)
 	{
-		newName=f3;
+		Name=f3;
 	}
 
-char Fruit::getnewName();
+char Fruit::getName()
 	{
-		return newName;
+		return Name;
 	}
-void Fruit::setnewPrice(float f4);
+void Fruit::setPrice(float f4)
 	{
-		newPrice=f4;
+		Price=f4;
 	}
 
-float Fruit::getnewPrice();
+float Fruit::getPrice()
 	{
-		return newPrice
+		return Price
 	}
 
 

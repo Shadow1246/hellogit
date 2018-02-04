@@ -1,26 +1,29 @@
-#ifdef FRUIT_H
+#ifndef FRUIT_H
 #define FRUIT_H
+#include <string>
+
+using namespace std;
 
 class Fruit {
 
 private:
 
-	int newAmount;
-	char  newName;
-	float newPrice;
+	int Amount;
+	std::string  Name;
+	float Price;
 
 public:
 
 	Fruit();
-	Fruit( int f2, char f3, float f4);
+	Fruit( int , string, float);
 
 
-	void setNewamount(int f2);
-	int getNewamount();
-	void setNewname(char f3);
-	char getNewname ();
-	void setNewprice(float f4);
-	float getNewprice();
+	void setAmount(int );
+	int getAmount();
+	void setName(string);
+	string getName ();
+	void setPrice(float );
+	float getPrice();
 
 };
 
