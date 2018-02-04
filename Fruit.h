@@ -1,7 +1,7 @@
 #ifdef FRUIT_H
 #define FRUIT_H
 
-CLASS Fruit {
+class Fruit {
 
 private:
 
