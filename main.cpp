@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include"Fruit.h"
 
 using namespace std ;
 

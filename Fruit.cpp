@@ -3,7 +3,7 @@
 #include"Fruit.h"
 
 
-Fruit :: Fruit()
+Fruit::Fruit()
 
 	{
 
@@ -13,38 +13,38 @@ Fruit :: Fruit()
 	}
 
 	
-Fruit :: Fruit (int f2,char f3, float f4);
+Fruit::Fruit (int f2,char f3, float f4);
 	{
 		newAmount= f2;
 		newName=f3;
 		newPrice=f4;
 	}
 
-void Fruit :: setAmount (int f2)
+void Fruit::setnewAmount (int f2);
 	{
 		newAmount=f2;
 	}
 
-int Fruit :: getAmount()
+int Fruit::getnewAmount();
 	{
 		return newAmount;
 	}
 
-void Fruit :: setName (char f3)
+void Fruit::setnewName (char f3);
 	{
 		newName=f3;
 	}
 
-char Fruit:: getName ()
+char Fruit::getnewName();
 	{
 		return newName;
 	}
-void Fruit:: setPrice(float f4);
+void Fruit::setnewPrice(float f4);
 	{
 		newPrice=f4;
 	}
 
-float Fruit:: getPrice()
+float Fruit::getnewPrice();
 	{
 		return newPrice
 	}
