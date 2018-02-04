@@ -6,7 +6,13 @@
 using namespace std;
 
 
-Fruit::Fruit(){};
+Fruit::Fruit(){
+
+		Amount=0;
+		Name=' ';
+		Price=0.0;
+
+};
 
 	
 Fruit::Fruit (int f2,string f3, float f4)
@@ -31,7 +37,7 @@ void Fruit::setName (string f3)
 		Name=f3;
 	}
 
-char Fruit::getName()
+string Fruit::getName()
 	{
 		return Name;
 	}
@@ -42,7 +48,7 @@ void Fruit::setPrice(float f4)
 
 float Fruit::getPrice()
 	{
-		return Price
+		return Price;
 	}
 
 
